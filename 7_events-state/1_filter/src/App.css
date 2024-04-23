@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 3px;
+  cursor:pointer;
+}
+
+button:hover {
+  border: 1px solid grey;
+}
+
+.active {
+  background: grey;
+  color: whitesmoke;
+}
+
+.projects {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 30%;
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+}
